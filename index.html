@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>yo</title>
+	<meta charset="utf-8">
+	<h1>yo</h1>
+
+<form
+  									action="https://formspree.io/f/xwkynwga"
+  									method="POST">
+								<div class="contact-form-success alert alert-success d-none mt-4">
+									<strong>Succès!</strong> Votre message nous a bien été envoyé !
+								</div>
+							
+								<div class="contact-form-error alert alert-danger d-none mt-4">
+									<strong>ERREUR!</strong> Une erreur est survenue lors de l'envoi de votre message.
+									<span class="mail-error-message text-1 d-block"></span>
+								</div>
+								
+								<div class="form-row">
+									<div class="form-group col-lg-6">
+										<label class="required font-weight-bold text-light text-2">Nom Prenon</label>
+										<input type="text" value="" data-msg-required="Merci d'entrer votre nom et votre prenom." maxlength="100" class="form-control" name="name" style="color: white" required>
+									</div>
+									<div class="form-group col-lg-6">
+										<label class="required font-weight-bold text-light text-2">Adresse Email</label>
+										<input type="email" value="" data-msg-required="Merci d'entrer votre adresse email." data-msg-email="Merci d'entrer une email valide." maxlength="100" class="form-control" name="email" style="color: white" required>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-group col">
+										<label class="font-weight-bold text-light text-2">Sujet</label>
+										<input type="subject" value="" data-msg-required="Merci d'entrer le sujet de votre message." maxlength="100" class="form-control" name="subject" style="color: white" required>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-group col">
+										<label class="required font-weight-bold text-light text-2">Message</label>
+										<textarea maxlength="5000" data-msg-required="Merci d'entrer un message." rows="8" class="form-control" name="message" style="color: white" required></textarea>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-group col">
+										<input type="submit" value="Envoyer" class="btn btn-primary btn-modern" data-loading-text="Chargement...">
+									</div>
+								</div>
+							</form> 
+	
+</head>
+<body>
+
+</body>
+</html>
